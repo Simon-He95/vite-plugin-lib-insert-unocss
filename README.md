@@ -8,7 +8,7 @@ npm i vite-plugin-lib-insert-unocss
 
 ## Usage
 ```
-import { vitePluginLibInsertUnocss } from 'vite-plugin-lib-insert-unocss'
+import vitePluginLibInsertUnocss from 'vite-plugin-lib-insert-unocss'
 
 export default defineConfig({
   plugins: [
