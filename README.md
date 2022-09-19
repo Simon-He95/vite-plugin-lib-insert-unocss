@@ -1,13 +1,27 @@
-## starter-ts
-forked by [antfu/starter-ts](https://github.com/antfu/vitesse)
+## vite-plugin-lib-insert-unocss
+Provide a vite plugin to inject the final packaged product in library mode// @unocss-include
 
-## GitHub Template
-[Create a repo from this template on GitHub.](https://github.com/Simon-He95/starter-ts/generate)
+## Install
+```
+npm i vite-plugin-lib-insert-unocss
+```
 
-## Clone to local
-If you prefer to do it manually with the cleaner git history
+## Usage
 ```
-npx degit Simon-He95/starter-ts my-starter-ts-app
-cd my-vitesse-app
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+import { vitePluginLibInsertUnocss } from 'vite-plugin-lib-insert-unocss'
+
+export default defineConfig({
+  plugins: [
+    vitePluginLibInsertUnocss()
+  ]
+})
+
 ```
+
+## :tea: 
+[buy me a cup of coffee](https://github.com/Simon-He95/sponsor)
+
+
+
+## :question: Question
+[issues](https://github.com/Simon-He95/vite-plugin-lib-insert-unocss/issues)
