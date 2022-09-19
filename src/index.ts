@@ -2,6 +2,8 @@ import fs from 'fs'
 export default function vitePluginLibInsertUnocss() {
   return {
     name: 'vite-plugin-lib-insert-unocss',
+    apply: 'build',
+    enforce: 'post',
     writeBundle(options: any, bundle: any) {
       const name = options.entryFileNames
       const dirname = `${options.dir}/${name}`
