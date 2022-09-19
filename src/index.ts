@@ -1,6 +1,5 @@
 import fs from 'fs'
-import type { Plugin } from 'vite'
-export default function vitePluginLibInsertUnocss(): Plugin {
+export default function vitePluginLibInsertUnocss() {
   return {
     name: 'vite-plugin-lib-insert-unocss',
     writeBundle(options: any, bundle: any) {
